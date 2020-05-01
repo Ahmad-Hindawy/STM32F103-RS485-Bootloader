@@ -194,3 +194,5 @@ The [**Blue Pill**](https://stm32-base.org/boards/STM32F103C8T6-Blue-Pill.html) 
 * Using [Arduino CLI](https://arduino.github.io/arduino-cli/platform-specification/) to integrate the flashing process in Arduino IDE.
 
 * Optimizing bootloader code to have a smaller memory footprint and a faster booting time.
+
+* Using UART activity with a timeout to enter bootloader mode.
