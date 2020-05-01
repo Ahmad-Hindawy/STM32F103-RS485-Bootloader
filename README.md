@@ -96,7 +96,7 @@ Arduino IDE uses a specific system to list different boards and its different va
 
 For this bootloader the STM32 Arduino core version 1.8.0 is used.
 
-![Boards](boards.png)
+![Boards](boards.PNG)
 
 for more information and how to install it check [Arduino core STM32](https://github.com/stm32duino/Arduino_Core_STM32).
 
