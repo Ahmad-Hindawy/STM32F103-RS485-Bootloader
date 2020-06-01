@@ -138,7 +138,7 @@ Commands system is descriped in section 9 in the course.
 
 It is written in python 3 and uses pyserial module.
 
-**NOTE :** the microcontroller must be in micro controller mode to communicate with the host script. This is done by pressing the button while resetting (connections will be discussed later). The boot pins must be 0 to ensure the booting is from flash memory.
+**NOTE :** the microcontroller must be in bootloader mode to communicate with the host script. This is done by pressing the button while resetting (connections will be discussed later). The boot pins must be 0 to ensure the booting is from flash memory.
 
 ### Erasing flash memory pages
 
@@ -180,7 +180,7 @@ The [**Blue Pill**](https://stm32-base.org/boards/STM32F103C8T6-Blue-Pill.html) 
 | Pin number            | Describtion                                   |
 | --------              | --------------                                |
 | UART2 (PA2 ,PA3)      | Debug serial port                             |
-| UART2 (PB10 ,PB11)    | Communication serial port (to logic onverter) |
+| UART2 (PB10 ,PB11)    | Communication serial port (to logic converter) |
 | PA15                  | MAX485 DE and RE pins                         |
 | PA12                  | bootloader mode button (Active High)          |
 | PC13                  | built-in LED                                  |
