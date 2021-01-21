@@ -1,4 +1,4 @@
-# Aquaphoton RS-485 Bootloader
+# RS-485 Bootloader
 
 ## Introduction
 
@@ -111,7 +111,7 @@ the needed directory is *%localappdata%/Arduino15/packages/STM32/hardware/stm32/
 Modify the file *boards.txt* at the line number 883 (under the Upload menu section in Generic F1 section) by adding the following lines
 
 ```
-GenF1.menu.upload_method.RS485Method=Aquaphoton RS485 Bootloader 1.0.0
+GenF1.menu.upload_method.RS485Method=RS485 Bootloader 1.0.0
 GenF1.menu.upload_method.RS485Method.upload.protocol=RS485
 GenF1.menu.upload_method.RS485Method.upload.tool=RS485
 GenF1.menu.upload_method.RS485Method.build.flash_offset=0x4000
